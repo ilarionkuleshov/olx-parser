@@ -11,14 +11,14 @@ from selenium.webdriver.common.by import By
 
 class Config:
 
-	olx_url = 'https://www.olx.ua/uk/nedvizhimost/posutochno-pochasovo/posutochno-pochasovo-kvartiry/odessa/'
-	pages = 24
+	olx_url = 'https://www.olx.ua/elektronika/telefony-i-aksesuary/'
+	pages = 25
 	filename = 'olx.xlsx'
 
 	path_to_web_driver = './chromedriver/chromedriver.exe'
-	proxy = ''
-	proxy_type = ''
-	proxy_auth = ''
+	proxy = '' # proxy address
+	proxy_type = '' # http or socks
+	proxy_auth = '' # user and password
 
 
 class WebDriver:

@@ -2,7 +2,7 @@ import pandas
 
 
 source_file = 'olx.xlsx'
-result_file = 'olx_odessa.xlsx'
+result_file = 'olx_result.xlsx'
 
 #source_file = 'doba.xlsx'
 #result_file = 'doba_result.xlsx'
